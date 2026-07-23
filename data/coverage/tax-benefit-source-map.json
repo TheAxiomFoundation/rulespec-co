@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-23",
+  "jurisdiction": "co",
+  "validation_year": "COLMOD v6.0 (policy years 2019-25; report CR-COLMOD-v6.0)",
+  "note": "COLMOD active-instrument map to governing Colombian law. Instrument keys are the model's EUROMOD-convention policy names (structure metadata only; no licensed content). Source URLs are hunting grounds, not captured provenance - capture happens in axiom-corpus manifests.",
+  "instruments": [
+    {"instrument": "tin_s (personal income tax, UVT schedular)", "governing_law": "Estatuto Tributario Art. 241 as rewritten by Ley 2010 de 2019 (2020-22) and Ley 2277 de 2022 (2023+, tranche-2)", "corpus_citation_path": "co/statute/ley-2019-2010/crecimiento-economico"},
+    {"instrument": "health + pension SICs (12.5% / 16%) + FSP", "governing_law": "Ley 100 de 1993 (Sistema de Seguridad Social Integral)", "corpus_citation_path": "co/statute/ley-1993-100/sistema-seguridad-social-integral"},
+    {"instrument": "Familias en Accion", "governing_law": "Ley 1532 de 2012 (as modified by Ley 1948 de 2019, tranche-2)", "corpus_citation_path": "co/statute/ley-2012-1532/familias-en-accion"},
+    {"instrument": "Ingreso Solidario (2020-22)", "governing_law": "Decreto Legislativo 518 de 2020", "corpus_citation_path": "co/regulation/decreto-2020-518/programa-ingreso-solidario"},
+    {"instrument": "Colombia Mayor / Jovenes en Accion / IVA compensation", "governing_law": "tranche-2 captures (program decrees and manuals)", "corpus_citation_path": null},
+    {"instrument": "tva_s / consumption tax", "governing_law": "Estatuto Tributario VAT titles as amended by Ley 2010 (partial capture); full ET = tranche-2", "corpus_citation_path": "co/statute/ley-2019-2010/crecimiento-economico"}
+  ]
+}

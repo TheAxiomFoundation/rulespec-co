@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-07-23",
+  "jurisdiction": "co",
+  "focus": "Colombian tax-benefit surface: UVT-schedular personal income tax, health and pension SICs under Ley 100, Familias en Accion, Ingreso Solidario, VAT and the national consumption tax.",
+  "purpose": "Household-level comparison-oracle and supporting-source references for Colombia Axiom coverage. None of these are legal authority.",
+  "oracle_scope": "A RuleSpec oracle must be an executable, pinned external calculator that accepts household-level inputs and returns household-level tax-benefit outputs comparable to Axiom outputs. Aggregate simulators, distributional reports, parameter documentation, and public model summaries are supporting references only, not oracles.",
+  "oracles": [
+    {
+      "id": "colmod",
+      "name": "COLMOD",
+      "url": "https://www.wider.unu.edu/project/southmod-simulating-tax-and-benefit-policies-development",
+      "local_path": "~/.axiom/oracles/southmod/bundle/ (licensed, non-redistributable; never committed)",
+      "commit": null,
+      "model": "COLMOD v6.0 (SOUTHMOD; EUROMOD platform)",
+      "dataset": "GEIH-based input microdata (shipped with the licensed bundle where included)",
+      "role": "Household-level tax-benefit comparison oracle for Colombia. Policy years 2019-25. Report CR-COLMOD-v6.0 (UNU-WIDER).",
+      "coverage": [
+        "personal_income_tax_uvt",
+        "health_pension_sics",
+        "fsp_solidarity",
+        "familias_en_accion",
+        "ingreso_solidario",
+        "vat",
+        "consumption_tax",
+        "household_disposable_income"
+      ],
+      "authority": "wiring_pending",
+      "availability_check": {
+        "checked_at": "2026-07-23",
+        "status": "wiring_pending",
+        "detail": "The locally held licensed SOUTHMOD bundle (EUROMOD runtime proven on the Ghana and Rwanda lanes) must be inventoried for COLMOD CO systems before wiring. Validation frame: COLMOD v6.0, policy years 2019-25."
+      },
+      "bundle_sha256": null
+    }
+  ]
+}
