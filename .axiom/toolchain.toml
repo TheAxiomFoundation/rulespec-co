@@ -2,6 +2,6 @@
 # exactly one immutable signed corpus release; the shared validate workflow
 # verifies the release object signature, content hash, and waiver-set hash.
 [toolchain]
-axiom_corpus_release = "co-rulespec-2026-07-23"
-axiom_corpus_release_content_sha256 = "ee864257f9a04f5792a5533b759f11d8f2c49fdc00b0059378d9d8ef873e2373"
+axiom_corpus_release = "co-rulespec-2026-07-24"
+axiom_corpus_release_content_sha256 = "6147c4f7350d65b5933890b7e9f30e5e04eac617e281871a2a73ae72b8bc5596"
 validation_waiver_set_sha256 = "b2a13aaf981f7d14a463fbb60739b80bea4d3abc24c4cd1e867fb21afdea961e"
