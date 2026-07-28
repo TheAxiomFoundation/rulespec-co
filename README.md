@@ -9,3 +9,11 @@ All encoded law lives under a single `co/` namespace. The validation frame is CO
 ## Source Priority
 
 Policy must come from the furthest upstream available source: Diario Oficial texts and official norm systems first (SUIN-Juriscol norm pages, the Función Pública EVA gestor normativo — record the host in manifest metadata; SUIN serves a leaf-only TLS chain, complete it from the leaf's AIA intermediate rather than disabling verification), decrees and DIAN resolutions next, agency guidance only after the governing instrument is identified.
+
+## Listing gates
+
+This repo carries `app_visibility = "experimental"` in `.axiom/registry.toml` and stays out of app surfaces until:
+
+1. The encoded surface covers the flagship calculation (personal income tax gross-to-net for a formal employee under the UVT-denominated Art. 241 schedule) end to end with companion tests.
+2. Oracle parity suites exist and pass against COLMOD for the encoded surface.
+3. Citation paths are stable (ley/decreto-number form against the Diario Oficial prints).
